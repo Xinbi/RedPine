@@ -6,17 +6,19 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MASImportDLL
 {
   public class ImportAPHeader
   {
-    public ImportAPHeader()
-    {
-      this.ImportAPDetails = (ICollection<ImportAPDetail>) new HashSet<ImportAPDetail>();
-    }
+        public ImportAPHeader()
+        {
+            ImportAPDetails = new List<ImportAPDetail>() ;
+        }
 
-    public int ImportAPHeaderKey { get; set; }
+        [Key]
+        public int ImportAPHeaderKey { get; set; }
 
     public int ImportBatchFileKey { get; set; }
 
@@ -26,8 +28,8 @@ namespace MASImportDLL
 
     public DateTime ImportAPInvoiceDate { get; set; }
 
-    public virtual ICollection<ImportAPDetail> ImportAPDetails { get; set; }
+    public ICollection<ImportAPDetail> ImportAPDetails { get; set; }
 
-    public virtual ImportBatchFile ImportBatchFile { get; set; }
+    public ImportBatchFile ImportBatchFile { get; set; }
   }
 }

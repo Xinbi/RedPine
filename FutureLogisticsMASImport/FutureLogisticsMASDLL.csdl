@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FutureLogMASImportModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="FutureLogMASImportEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="ImportBatchFileErrors" EntityType="FutureLogMASImportModel.ImportBatchFileError" />
+    <EntitySet Name="ImportBatchFiles" EntityType="FutureLogMASImportModel.ImportBatchFile" />
+    <EntitySet Name="SystemParameters" EntityType="FutureLogMASImportModel.SystemParameter" />
+    <AssociationSet Name="FK_ImportBatchFileErrors_ImportBatchFiles" Association="FutureLogMASImportModel.FK_ImportBatchFileErrors_ImportBatchFiles">
+      <End Role="ImportBatchFile" EntitySet="ImportBatchFiles" />
+      <End Role="ImportBatchFileError" EntitySet="ImportBatchFileErrors" />
+    </AssociationSet>
+    <EntitySet Name="ImportBatches" EntityType="FutureLogMASImportModel.ImportBatch" />
+    <AssociationSet Name="FK_ImportBatchFiles_ImportBatches" Association="FutureLogMASImportModel.FK_ImportBatchFiles_ImportBatches">
+      <End Role="ImportBatch" EntitySet="ImportBatches" />
+      <End Role="ImportBatchFile" EntitySet="ImportBatchFiles" />
+    </AssociationSet>
+    <EntitySet Name="ImportAPDetails" EntityType="FutureLogMASImportModel.ImportAPDetail" />
+    <EntitySet Name="ImportAPHeaders" EntityType="FutureLogMASImportModel.ImportAPHeader" />
+    <EntitySet Name="ImportARDetails" EntityType="FutureLogMASImportModel.ImportARDetail" />
+    <AssociationSet Name="FK_ImportAPDetails_ImportAPHeaders" Association="FutureLogMASImportModel.FK_ImportAPDetails_ImportAPHeaders">
+      <End Role="ImportAPHeader" EntitySet="ImportAPHeaders" />
+      <End Role="ImportAPDetail" EntitySet="ImportAPDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImportAPHeaders_ImportBatchFiles" Association="FutureLogMASImportModel.FK_ImportAPHeaders_ImportBatchFiles">
+      <End Role="ImportBatchFile" EntitySet="ImportBatchFiles" />
+      <End Role="ImportAPHeader" EntitySet="ImportAPHeaders" />
+    </AssociationSet>
+    <EntitySet Name="ImportARHeaders" EntityType="FutureLogMASImportModel.ImportARHeader" />
+    <AssociationSet Name="FK_ImportARDetails_ImportARHeaders" Association="FutureLogMASImportModel.FK_ImportARDetails_ImportARHeaders">
+      <End Role="ImportARHeader" EntitySet="ImportARHeaders" />
+      <End Role="ImportARDetail" EntitySet="ImportARDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImportARHeaders_ImportBatchFiles" Association="FutureLogMASImportModel.FK_ImportARHeaders_ImportBatchFiles">
+      <End Role="ImportBatchFile" EntitySet="ImportBatchFiles" />
+      <End Role="ImportARHeader" EntitySet="ImportARHeaders" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ImportBatchFileError">
+    <Key>
+      <PropertyRef Name="ImportBatchFileErrorKey" />
+    </Key>
+    <Property Name="ImportBatchFileErrorKey" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ImportBatchFileKey" Type="Int32" Nullable="false" />
+    <Property Name="ImportBatchFileRecordNumber" Type="Int32" Nullable="false" />
+    <Property Name="ImportBatchFileErrorID" Type="String" Nullable="false" MaxLength="2" Unicode="true" FixedLength="true" />
+    <Property Name="ImportBatchFileErrorMessage" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ImportBatchFile" Relationship="FutureLogMASImportModel.FK_ImportBatchFileErrors_ImportBatchFiles" FromRole="ImportBatchFileError" ToRole="ImportBatchFile" />
+  </EntityType>
+  <EntityType Name="ImportBatchFile">
+    <Key>
+      <PropertyRef Name="ImportBatchFileKey" />
+    </Key>
+    <Property Name="ImportBatchFileKey" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ImportBatchKey" Type="Int32" Nullable="false" />
+    <Property Name="ImportBatchFileName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ImportBatchFileType" Type="String" Nullable="false" MaxLength="2" Unicode="true" FixedLength="true" />
+    <Property Name="ImportBatchFileRecordCount" Type="Int32" Nullable="false" />
+    <Property Name="ImportBatchFilePostDateTime" Type="DateTime" Precision="3" />
+    <Property Name="ImportBatchFilePostUser" Type="Guid" />
+    <Property Name="ImportBatchFileRollbackDateTime" Type="DateTime" Precision="3" />
+    <Property Name="ImportBatchFileRollbackUser" Type="Guid" />
+    <NavigationProperty Name="ImportBatchFileErrors" Relationship="FutureLogMASImportModel.FK_ImportBatchFileErrors_ImportBatchFiles" FromRole="ImportBatchFile" ToRole="ImportBatchFileError" />
+    <NavigationProperty Name="ImportBatch" Relationship="FutureLogMASImportModel.FK_ImportBatchFiles_ImportBatches" FromRole="ImportBatchFile" ToRole="ImportBatch" />
+    <NavigationProperty Name="ImportAPHeaders" Relationship="FutureLogMASImportModel.FK_ImportAPHeaders_ImportBatchFiles" FromRole="ImportBatchFile" ToRole="ImportAPHeader" />
+    <NavigationProperty Name="ImportARHeaders" Relationship="FutureLogMASImportModel.FK_ImportARHeaders_ImportBatchFiles" FromRole="ImportBatchFile" ToRole="ImportARHeader" />
+  </EntityType>
+  <EntityType Name="SystemParameter">
+    <Key>
+      <PropertyRef Name="SystemParmID" />
+    </Key>
+    <Property Name="SystemParmID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="SystemParmValue" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_ImportBatchFileErrors_ImportBatchFiles">
+    <End Type="FutureLogMASImportModel.ImportBatchFile" Role="ImportBatchFile" Multiplicity="1" />
+    <End Type="FutureLogMASImportModel.ImportBatchFileError" Role="ImportBatchFileError" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ImportBatchFile">
+        <PropertyRef Name="ImportBatchFileKey" />
+      </Principal>
+      <Dependent Role="ImportBatchFileError">
+        <PropertyRef Name="ImportBatchFileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ImportBatch">
+    <Key>
+      <PropertyRef Name="ImportBatchKey" />
+    </Key>
+    <Property Type="Int32" Name="ImportBatchKey" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="ImportBatchLoadDateTime" Nullable="false" Precision="3" />
+    <Property Type="Guid" Name="ImportLoadUser" />
+    <NavigationProperty Name="ImportBatchFiles" Relationship="FutureLogMASImportModel.FK_ImportBatchFiles_ImportBatches" FromRole="ImportBatch" ToRole="ImportBatchFile" />
+  </EntityType>
+  <Association Name="FK_ImportBatchFiles_ImportBatches">
+    <End Type="FutureLogMASImportModel.ImportBatch" Role="ImportBatch" Multiplicity="1" />
+    <End Type="FutureLogMASImportModel.ImportBatchFile" Role="ImportBatchFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ImportBatch">
+        <PropertyRef Name="ImportBatchKey" />
+      </Principal>
+      <Dependent Role="ImportBatchFile">
+        <PropertyRef Name="ImportBatchKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ImportAPDetail">
+    <Key>
+      <PropertyRef Name="ImportAPDetailKey" />
+    </Key>
+    <Property Type="Int32" Name="ImportAPDetailKey" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ImportAPHeaderKey" Nullable="false" />
+    <Property Type="String" Name="ImportAPGLAccount" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="ImportAPAmount" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="ImportAPHeader" Relationship="FutureLogMASImportModel.FK_ImportAPDetails_ImportAPHeaders" FromRole="ImportAPDetail" ToRole="ImportAPHeader" />
+  </EntityType>
+  <EntityType Name="ImportAPHeader">
+    <Key>
+      <PropertyRef Name="ImportAPHeaderKey" />
+    </Key>
+    <Property Type="Int32" Name="ImportAPHeaderKey" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ImportBatchFileKey" Nullable="false" />
+    <Property Type="String" Name="ImportAPVendorNumber" Nullable="false" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImportAPInvoiceNumber" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="ImportAPInvoiceDate" Nullable="false" Precision="0" />
+    <NavigationProperty Name="ImportAPDetails" Relationship="FutureLogMASImportModel.FK_ImportAPDetails_ImportAPHeaders" FromRole="ImportAPHeader" ToRole="ImportAPDetail" />
+    <NavigationProperty Name="ImportBatchFile" Relationship="FutureLogMASImportModel.FK_ImportAPHeaders_ImportBatchFiles" FromRole="ImportAPHeader" ToRole="ImportBatchFile" />
+  </EntityType>
+  <EntityType Name="ImportARDetail">
+    <Key>
+      <PropertyRef Name="ImportARDetailKey" />
+    </Key>
+    <Property Type="Int32" Name="ImportARDetailKey" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ImportARHeaderKey" Nullable="false" />
+    <Property Type="String" Name="ImportARItemCode" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ImportARItemQuantity" Nullable="false" />
+    <Property Type="String" Name="ImportARItemDescription" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="ImportARPrice" Nullable="false" Precision="19" Scale="4" />
+    <Property Type="String" Name="ImportARSalesGLAccount" MaxLength="9" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ImportARHeader" Relationship="FutureLogMASImportModel.FK_ImportARDetails_ImportARHeaders" FromRole="ImportARDetail" ToRole="ImportARHeader" />
+  </EntityType>
+  <Association Name="FK_ImportAPDetails_ImportAPHeaders">
+    <End Type="FutureLogMASImportModel.ImportAPHeader" Role="ImportAPHeader" Multiplicity="1" />
+    <End Type="FutureLogMASImportModel.ImportAPDetail" Role="ImportAPDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ImportAPHeader">
+        <PropertyRef Name="ImportAPHeaderKey" />
+      </Principal>
+      <Dependent Role="ImportAPDetail">
+        <PropertyRef Name="ImportAPHeaderKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImportAPHeaders_ImportBatchFiles">
+    <End Type="FutureLogMASImportModel.ImportBatchFile" Role="ImportBatchFile" Multiplicity="1" />
+    <End Type="FutureLogMASImportModel.ImportAPHeader" Role="ImportAPHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ImportBatchFile">
+        <PropertyRef Name="ImportBatchFileKey" />
+      </Principal>
+      <Dependent Role="ImportAPHeader">
+        <PropertyRef Name="ImportBatchFileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ImportARHeader">
+    <Key>
+      <PropertyRef Name="ImportARHeaderKey" />
+    </Key>
+    <Property Type="Int32" Name="ImportARHeaderKey" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ImportBatchFileKey" Nullable="false" />
+    <Property Type="String" Name="ImportARInvoiceNumber" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImportARCustomerNumber" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="ImportARInvoiceDate" Nullable="false" Precision="0" />
+    <Property Type="String" Name="ImportARCustomerPONumber" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImportARJobNumber" MaxLength="250" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ImportARDetails" Relationship="FutureLogMASImportModel.FK_ImportARDetails_ImportARHeaders" FromRole="ImportARHeader" ToRole="ImportARDetail" />
+    <NavigationProperty Name="ImportBatchFile" Relationship="FutureLogMASImportModel.FK_ImportARHeaders_ImportBatchFiles" FromRole="ImportARHeader" ToRole="ImportBatchFile" />
+  </EntityType>
+  <Association Name="FK_ImportARDetails_ImportARHeaders">
+    <End Type="FutureLogMASImportModel.ImportARHeader" Role="ImportARHeader" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FutureLogMASImportModel.ImportARDetail" Role="ImportARDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ImportARHeader">
+        <PropertyRef Name="ImportARHeaderKey" />
+      </Principal>
+      <Dependent Role="ImportARDetail">
+        <PropertyRef Name="ImportARHeaderKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImportARHeaders_ImportBatchFiles">
+    <End Type="FutureLogMASImportModel.ImportBatchFile" Role="ImportBatchFile" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FutureLogMASImportModel.ImportARHeader" Role="ImportARHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ImportBatchFile">
+        <PropertyRef Name="ImportBatchFileKey" />
+      </Principal>
+      <Dependent Role="ImportARHeader">
+        <PropertyRef Name="ImportBatchFileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

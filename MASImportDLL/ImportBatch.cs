@@ -6,22 +6,25 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MASImportDLL
 {
   public class ImportBatch
   {
-    public ImportBatch()
-    {
-      this.ImportBatchFiles = (ICollection<ImportBatchFile>) new HashSet<ImportBatchFile>();
-    }
+      private ICollection<ImportBatchFile> _importBatchFiles;
 
-    public int ImportBatchKey { get; set; }
+      [Key]
+      public int ImportBatchKey { get; set; }
 
     public DateTime ImportBatchLoadDateTime { get; set; }
 
     public Guid? ImportLoadUser { get; set; }
 
-    public virtual ICollection<ImportBatchFile> ImportBatchFiles { get; set; }
+    public virtual ICollection<ImportBatchFile> ImportBatchFiles
+    {
+        get => _importBatchFiles ?? (_importBatchFiles = new List<ImportBatchFile>());
+        set => _importBatchFiles = value;
+    }
   }
 }

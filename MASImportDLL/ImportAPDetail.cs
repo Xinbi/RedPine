@@ -5,19 +5,21 @@
 // Assembly location: C:\Temp\Red Pine Systems\MASImportDLL.dll
 
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MASImportDLL
 {
-  public class ImportAPDetail
-  {
-    public int ImportAPDetailKey { get; set; }
+    public class ImportAPDetail
+    {
+        [Key] 
+        public int ImportAPDetailKey { get; set; }
 
-    public int ImportAPHeaderKey { get; set; }
+        public int ImportAPHeaderKey { get; set; }
 
-    public string ImportAPGLAccount { get; set; }
+        public string ImportAPGLAccount { get; set; }
 
-    public Decimal ImportAPAmount { get; set; }
+        public Decimal ImportAPAmount { get; set; }
 
-    public virtual ImportAPHeader ImportAPHeader { get; set; }
-  }
+        public virtual ImportAPHeader ImportAPHeader { get; set; }
+    }
 }

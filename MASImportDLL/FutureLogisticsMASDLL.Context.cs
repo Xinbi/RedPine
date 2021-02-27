@@ -9,32 +9,28 @@ using System.Data.Entity.Infrastructure;
 
 namespace MASImportDLL
 {
-  public class FutureLogMASImportEntities : DbContext
-  {
-    public FutureLogMASImportEntities()
-      : base("name=FutureLogMASImportEntities")
+    public class FutureLogMASImportEntities : DbContext
     {
+        public FutureLogMASImportEntities()
+            : base("name=FutureLogMASImportEntities")
+        {
+        }
+
+
+        public DbSet<ImportBatchFileError> ImportBatchFileErrors { get; set; }
+
+        public DbSet<ImportBatchFile> ImportBatchFiles { get; set; }
+
+        public DbSet<SystemParameter> SystemParameters { get; set; }
+
+        public DbSet<ImportBatch> ImportBatches { get; set; }
+
+        public DbSet<ImportAPDetail> ImportAPDetails { get; set; }
+
+        public DbSet<ImportAPHeader> ImportAPHeaders { get; set; }
+
+        public DbSet<ImportARDetail> ImportARDetails { get; set; }
+
+        public DbSet<ImportARHeader> ImportARHeaders { get; set; }
     }
-
-    protected override void OnModelCreating(DbModelBuilder modelBuilder)
-    {
-      throw new UnintentionalCodeFirstException();
-    }
-
-    public DbSet<ImportBatchFileError> ImportBatchFileErrors { get; set; }
-
-    public DbSet<ImportBatchFile> ImportBatchFiles { get; set; }
-
-    public DbSet<SystemParameter> SystemParameters { get; set; }
-
-    public DbSet<ImportBatch> ImportBatches { get; set; }
-
-    public DbSet<ImportAPDetail> ImportAPDetails { get; set; }
-
-    public DbSet<ImportAPHeader> ImportAPHeaders { get; set; }
-
-    public DbSet<ImportARDetail> ImportARDetails { get; set; }
-
-    public DbSet<ImportARHeader> ImportARHeaders { get; set; }
-  }
 }

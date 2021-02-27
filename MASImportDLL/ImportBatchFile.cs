@@ -6,20 +6,19 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MASImportDLL
 {
   public class ImportBatchFile
   {
-    public ImportBatchFile()
-    {
-      this.ImportBatchFileErrors = (ICollection<ImportBatchFileError>) new HashSet<ImportBatchFileError>();
-      this.ImportAPHeaders = (ICollection<ImportAPHeader>) new HashSet<ImportAPHeader>();
-      this.ImportARHeaders = (ICollection<ImportARHeader>) new HashSet<ImportARHeader>();
-    }
+      private ICollection<ImportAPHeader> _importApHeaders;
+      private ICollection<ImportARHeader> _importArHeaders;
 
-    public int ImportBatchFileKey { get; set; }
 
+      public int ImportBatchFileKey { get; set; }
+
+      [Key]
     public int ImportBatchKey { get; set; }
 
     public string ImportBatchFileName { get; set; }
@@ -40,8 +39,16 @@ namespace MASImportDLL
 
     public virtual ImportBatch ImportBatch { get; set; }
 
-    public virtual ICollection<ImportAPHeader> ImportAPHeaders { get; set; }
+    public virtual ICollection<ImportAPHeader> ImportAPHeaders
+    {
+        get => _importApHeaders ?? (_importApHeaders = new List<ImportAPHeader>());
+        set => _importApHeaders = value;
+    }
 
-    public virtual ICollection<ImportARHeader> ImportARHeaders { get; set; }
+    public virtual ICollection<ImportARHeader> ImportARHeaders
+    {
+        get => _importArHeaders ?? (_importArHeaders = new List<ImportARHeader>());
+        set => _importArHeaders = value;
+    }
   }
 }

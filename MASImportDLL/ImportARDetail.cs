@@ -5,11 +5,13 @@
 // Assembly location: C:\Temp\Red Pine Systems\MASImportDLL.dll
 
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MASImportDLL
 {
   public class ImportARDetail
   {
+      [Key]
     public int ImportARDetailKey { get; set; }
 
     public int ImportARHeaderKey { get; set; }

@@ -6,16 +6,15 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MASImportDLL
 {
   public class ImportARHeader
   {
-    public ImportARHeader()
-    {
-      this.ImportARDetails = (ICollection<ImportARDetail>) new HashSet<ImportARDetail>();
-    }
+   
 
+      [Key]
     public int ImportARHeaderKey { get; set; }
 
     public int ImportBatchFileKey { get; set; }

@@ -3,3 +3,12 @@
 ################################################################################
 
 /FutureLogisticsMASImport/bin/Debug
+/.vs
+/FutureLogisticsMASImport/.cr/personal/FavoritesList
+/FutureLogisticsMASImport/.vs/FutureLogisticsMASImport/v16
+/FutureLogisticsMASImport/obj/Debug
+/FutureLogisticsMASImport/packages/EntityFramework.6.4.4
+/FutureLogisticsMASImport/FutureLogisticsMASImport.csproj.user
+/MASImportDLL/bin/Debug
+/MASImportDLL/obj/Debug
+/MASImportDLL/MASImportDLL.csproj.user

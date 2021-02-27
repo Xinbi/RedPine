@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FutureLogMASImportModelStoreContainer" CdmEntityContainer="FutureLogMASImportEntities">
+    <EntitySetMapping Name="ImportBatchFileErrors">
+      <EntityTypeMapping TypeName="FutureLogMASImportModel.ImportBatchFileError">
+        <MappingFragment StoreEntitySet="ImportBatchFileErrors">
+          <ScalarProperty Name="ImportBatchFileErrorKey" ColumnName="ImportBatchFileErrorKey" />
+          <ScalarProperty Name="ImportBatchFileKey" ColumnName="ImportBatchFileKey" />
+          <ScalarProperty Name="ImportBatchFileRecordNumber" ColumnName="ImportBatchFileRecordNumber" />
+          <ScalarProperty Name="ImportBatchFileErrorID" ColumnName="ImportBatchFileErrorID" />
+          <ScalarProperty Name="ImportBatchFileErrorMessage" ColumnName="ImportBatchFileErrorMessage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImportBatchFiles">
+      <EntityTypeMapping TypeName="FutureLogMASImportModel.ImportBatchFile">
+        <MappingFragment StoreEntitySet="ImportBatchFiles">
+          <ScalarProperty Name="ImportBatchFileKey" ColumnName="ImportBatchFileKey" />
+          <ScalarProperty Name="ImportBatchKey" ColumnName="ImportBatchKey" />
+          <ScalarProperty Name="ImportBatchFileName" ColumnName="ImportBatchFileName" />
+          <ScalarProperty Name="ImportBatchFileType" ColumnName="ImportBatchFileType" />
+          <ScalarProperty Name="ImportBatchFileRecordCount" ColumnName="ImportBatchFileRecordCount" />
+          <ScalarProperty Name="ImportBatchFilePostDateTime" ColumnName="ImportBatchFilePostDateTime" />
+          <ScalarProperty Name="ImportBatchFilePostUser" ColumnName="ImportBatchFilePostUser" />
+          <ScalarProperty Name="ImportBatchFileRollbackDateTime" ColumnName="ImportBatchFileRollbackDateTime" />
+          <ScalarProperty Name="ImportBatchFileRollbackUser" ColumnName="ImportBatchFileRollbackUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemParameters">
+      <EntityTypeMapping TypeName="FutureLogMASImportModel.SystemParameter">
+        <MappingFragment StoreEntitySet="SystemParameters">
+          <ScalarProperty Name="SystemParmID" ColumnName="SystemParmID" />
+          <ScalarProperty Name="SystemParmValue" ColumnName="SystemParmValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImportBatches">
+      <EntityTypeMapping TypeName="FutureLogMASImportModel.ImportBatch">
+        <MappingFragment StoreEntitySet="ImportBatches">
+          <ScalarProperty Name="ImportLoadUser" ColumnName="ImportLoadUser" />
+          <ScalarProperty Name="ImportBatchLoadDateTime" ColumnName="ImportBatchLoadDateTime" />
+          <ScalarProperty Name="ImportBatchKey" ColumnName="ImportBatchKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImportAPDetails">
+      <EntityTypeMapping TypeName="FutureLogMASImportModel.ImportAPDetail">
+        <MappingFragment StoreEntitySet="ImportAPDetails">
+          <ScalarProperty Name="ImportAPAmount" ColumnName="ImportAPAmount" />
+          <ScalarProperty Name="ImportAPGLAccount" ColumnName="ImportAPGLAccount" />
+          <ScalarProperty Name="ImportAPHeaderKey" ColumnName="ImportAPHeaderKey" />
+          <ScalarProperty Name="ImportAPDetailKey" ColumnName="ImportAPDetailKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImportAPHeaders">
+      <EntityTypeMapping TypeName="FutureLogMASImportModel.ImportAPHeader">
+        <MappingFragment StoreEntitySet="ImportAPHeaders">
+          <ScalarProperty Name="ImportAPInvoiceDate" ColumnName="ImportAPInvoiceDate" />
+          <ScalarProperty Name="ImportAPInvoiceNumber" ColumnName="ImportAPInvoiceNumber" />
+          <ScalarProperty Name="ImportAPVendorNumber" ColumnName="ImportAPVendorNumber" />
+          <ScalarProperty Name="ImportBatchFileKey" ColumnName="ImportBatchFileKey" />
+          <ScalarProperty Name="ImportAPHeaderKey" ColumnName="ImportAPHeaderKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImportARDetails">
+      <EntityTypeMapping TypeName="FutureLogMASImportModel.ImportARDetail">
+        <MappingFragment StoreEntitySet="ImportARDetails">
+          <ScalarProperty Name="ImportARSalesGLAccount" ColumnName="ImportARSalesGLAccount" />
+          <ScalarProperty Name="ImportARPrice" ColumnName="ImportARPrice" />
+          <ScalarProperty Name="ImportARItemDescription" ColumnName="ImportARItemDescription" />
+          <ScalarProperty Name="ImportARItemQuantity" ColumnName="ImportARItemQuantity" />
+          <ScalarProperty Name="ImportARItemCode" ColumnName="ImportARItemCode" />
+          <ScalarProperty Name="ImportARHeaderKey" ColumnName="ImportARHeaderKey" />
+          <ScalarProperty Name="ImportARDetailKey" ColumnName="ImportARDetailKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImportARHeaders">
+      <EntityTypeMapping TypeName="FutureLogMASImportModel.ImportARHeader">
+        <MappingFragment StoreEntitySet="ImportARHeaders">
+          <ScalarProperty Name="ImportARJobNumber" ColumnName="ImportARJobNumber" />
+          <ScalarProperty Name="ImportARCustomerPONumber" ColumnName="ImportARCustomerPONumber" />
+          <ScalarProperty Name="ImportARInvoiceDate" ColumnName="ImportARInvoiceDate" />
+          <ScalarProperty Name="ImportARCustomerNumber" ColumnName="ImportARCustomerNumber" />
+          <ScalarProperty Name="ImportARInvoiceNumber" ColumnName="ImportARInvoiceNumber" />
+          <ScalarProperty Name="ImportBatchFileKey" ColumnName="ImportBatchFileKey" />
+          <ScalarProperty Name="ImportARHeaderKey" ColumnName="ImportARHeaderKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

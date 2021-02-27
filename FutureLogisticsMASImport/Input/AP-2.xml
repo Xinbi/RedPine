@@ -1,0 +1,2119 @@
+<?xml version="1.0"?>
+<MercuryGate specVersion="2.09">
+<Header><SenderID>MGFUTURELGS</SenderID>
+<ReceiverID>MGFUTURELGS</ReceiverID>
+<DocTypeID>FreightBill</DocTypeID>
+<DocCount>1</DocCount>
+<Date type="generation">02/24/2021 16:19</Date>
+<ExtractRequest><Date>02/24/2021 16:19</Date>
+<Reason>Manual Extract From FreightBill List Screen</Reason>
+<User UserId="LOROURKE" FirstName="Linda" LastName="O&apos;Rourke"><ContactMethods><ContactMethod sequenceNum="1" type="Phone">503-416-2484</ContactMethod>
+<ContactMethod sequenceNum="2" type="Email">ldorourke@fmf.com</ContactMethod>
+<ContactMethod sequenceNum="3" type="SMSEmail"></ContactMethod>
+<ContactMethod sequenceNum="4" type="Fax">503-416-2486</ContactMethod>
+</ContactMethods>
+</User>
+</ExtractRequest>
+</Header>
+<MasterBillOfLading internalId="22586797879" type="Regular"><ReferenceNumbers><ReferenceNumber type="Load ID" isPrimary="true">LD1000101118</ReferenceNumber>
+<ReferenceNumber type="Sales Rep" isPrimary="false">SJENSSEN</ReferenceNumber>
+<ReferenceNumber type="Shipment ID" isPrimary="false">SN1000005096</ReferenceNumber>
+<ReferenceNumber type="JobNumber" isPrimary="false">FUT01212021-2</ReferenceNumber>
+<ReferenceNumber type="Shipment ID" isPrimary="false">SN1000005097</ReferenceNumber>
+<ReferenceNumber type="SCAC" isPrimary="false">NONE</ReferenceNumber>
+<ReferenceNumber type="PRO" isPrimary="false">LD1000101118 (AUTO:01/21/2021 12:05:11:744)</ReferenceNumber>
+<ReferenceNumber type="ACT" isPrimary="false">sjenssen@fmf.com</ReferenceNumber>
+<ReferenceNumber type="Terminal" isPrimary="false">Ormond</ReferenceNumber>
+<ReferenceNumber type="Dispatch User" isPrimary="false">Spencer Jenssen</ReferenceNumber>
+<ReferenceNumber type="Customer Acct Number" isPrimary="false">2187</ReferenceNumber>
+</ReferenceNumbers>
+<Comments><Comment type="SpecialInstructions"></Comment>
+</Comments>
+<Notes/><Services/><Packages><Package type=""><Dimensions><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Weights><Weight type="actual" uom="lb">11347.0</Weight>
+<Weight type="planned" uom="lb">11347.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<ItemGroups><ItemGroup type="22586798144" isShipUnit="false"><Description>PACKAGING MATERIAL</Description>
+<ContainmentId>0</ContainmentId>
+<Weights><Weight type="actual" uom="lb">11347.0</Weight>
+<Weight type="planned" uom="lb">11347.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="actual" uom="PLT">9.0</Quantity>
+<Quantity type="planned" uom="PLT">9.0</Quantity>
+<Quantity type="ordered" uom="">0.0</Quantity>
+<Quantity type="delivered" uom="">0.0</Quantity>
+</Quantities>
+<FreightClass type="delivered">0.0</FreightClass>
+<Dimensions type="actual"><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Dimensions type="planned"><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Stackability>0</Stackability>
+<TrackingNumber/><DeliveryStatus/><ReferenceNumbers></ReferenceNumbers>
+<LineItem lineNumber="-1"><Weights><Weight type="ordered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="ordered" uom="">0.0</Quantity>
+</Quantities>
+<ItemId>PACKAGING MATERIAL</ItemId>
+<Description>PACKAGING MATERIAL</Description>
+<FreightClass>55.0</FreightClass>
+<Commodity/><NmfcCode/><StccCode/><CustomerPartNum></CustomerPartNum>
+<ManufacturerPartNum></ManufacturerPartNum>
+<DistributorPartNum></DistributorPartNum>
+<Cube>0.0</Cube>
+<TemperatureRange/><HazardousMaterial>false</HazardousMaterial>
+<HazMatDetail><ProperShippingName></ProperShippingName>
+<HazMatID></HazMatID>
+<PackageGroup></PackageGroup>
+<HazMatClass></HazMatClass>
+<ContactName></ContactName>
+<ContactPhone></ContactPhone>
+<HazMatPlacards>false</HazMatPlacards>
+<HazMatPlacardsDetails/><HazMatEMSNumber/><HazMatFlashPointTemp/><Comments/></HazMatDetail>
+<Dimensions><Dimension type="Length" uom="in">0.0</Dimension>
+<Dimension type="Width" uom="in">0.0</Dimension>
+<Dimension type="Height" uom="in">0.0</Dimension>
+</Dimensions>
+<HarmonizedTariffCode/><PortOfLading/><CountryOfOrigin/><CountryOfManufacture/><CustomsValue></CustomsValue>
+<CustomsValueCurrency/><InsuredValue></InsuredValue>
+<InsuredValueCurrency/><AESExportCode/><AESLicenseNumber/><AESLicenseType/><ReferenceNumbers></ReferenceNumbers>
+</LineItem>
+</ItemGroup>
+</ItemGroups>
+</Package>
+<Package type=""><Dimensions><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Weights><Weight type="actual" uom="lb">27410.0</Weight>
+<Weight type="planned" uom="lb">27410.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<ItemGroups><ItemGroup type="22586798412" isShipUnit="false"><Description>PACKAGING MATERIAL</Description>
+<ContainmentId>1</ContainmentId>
+<Weights><Weight type="actual" uom="lb">27410.0</Weight>
+<Weight type="planned" uom="lb">27410.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="actual" uom="PLT">26.0</Quantity>
+<Quantity type="planned" uom="PLT">26.0</Quantity>
+<Quantity type="ordered" uom="">0.0</Quantity>
+<Quantity type="delivered" uom="">0.0</Quantity>
+</Quantities>
+<FreightClass type="delivered">0.0</FreightClass>
+<Dimensions type="actual"><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Dimensions type="planned"><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Stackability>0</Stackability>
+<TrackingNumber/><DeliveryStatus/><ReferenceNumbers></ReferenceNumbers>
+<LineItem lineNumber="-1"><Weights><Weight type="ordered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="ordered" uom="">0.0</Quantity>
+</Quantities>
+<ItemId>PACKAGING MATERIAL</ItemId>
+<Description>PACKAGING MATERIAL</Description>
+<FreightClass>55.0</FreightClass>
+<Commodity/><NmfcCode/><StccCode/><CustomerPartNum></CustomerPartNum>
+<ManufacturerPartNum></ManufacturerPartNum>
+<DistributorPartNum></DistributorPartNum>
+<Cube>0.0</Cube>
+<TemperatureRange/><HazardousMaterial>false</HazardousMaterial>
+<HazMatDetail><ProperShippingName></ProperShippingName>
+<HazMatID></HazMatID>
+<PackageGroup></PackageGroup>
+<HazMatClass></HazMatClass>
+<ContactName></ContactName>
+<ContactPhone></ContactPhone>
+<HazMatPlacards>false</HazMatPlacards>
+<HazMatPlacardsDetails/><HazMatEMSNumber/><HazMatFlashPointTemp/><Comments/></HazMatDetail>
+<Dimensions><Dimension type="Length" uom="in">0.0</Dimension>
+<Dimension type="Width" uom="in">0.0</Dimension>
+<Dimension type="Height" uom="in">0.0</Dimension>
+</Dimensions>
+<HarmonizedTariffCode/><PortOfLading/><CountryOfOrigin/><CountryOfManufacture/><CustomsValue></CustomsValue>
+<CustomsValueCurrency/><InsuredValue></InsuredValue>
+<InsuredValueCurrency/><AESExportCode/><AESLicenseNumber/><AESLicenseType/><ReferenceNumbers></ReferenceNumbers>
+</LineItem>
+</ItemGroup>
+</ItemGroups>
+</Package>
+</Packages>
+<EquipmentList></EquipmentList>
+<ScheduledEquipment></ScheduledEquipment>
+<InternationalDetails><MoveType></MoveType>
+<VesselName></VesselName>
+<VoyageNumber></VoyageNumber>
+<LLoydsCode></LLoydsCode>
+<LetterOfCredit><Number></Number>
+<IssuedDate></IssuedDate>
+<ExpirationDate></ExpirationDate>
+</LetterOfCredit>
+<ImmediateTransportationNumber></ImmediateTransportationNumber>
+<ImmediateTransportationDate></ImmediateTransportationDate>
+<TransportationAndExportationNumber></TransportationAndExportationNumber>
+<ImmediateExportNumber></ImmediateExportNumber>
+<ExporterReferenceNumber></ExporterReferenceNumber>
+<ExporterLicenseNumber></ExporterLicenseNumber>
+<ExportLicenseDate></ExportLicenseDate>
+<FMCNumber></FMCNumber>
+<InternalTransactionNumber></InternalTransactionNumber>
+<ElectronicExportInformation></ElectronicExportInformation>
+<ExportDeclaration></ExportDeclaration>
+<USAMSNumber></USAMSNumber>
+<DestinationControlStatement></DestinationControlStatement>
+<ISFShipmentType></ISFShipmentType>
+<ISFBondHolder></ISFBondHolder>
+<ISFBondNumber></ISFBondNumber>
+<SuretyNumber></SuretyNumber>
+<PointOfOrigin/><ContainerStuffingLocation/><ContainerStufferLocation/><PortOfEntry/><PortOfExport/><FirstPortOfUnlading/><FinalPortOfDestination/><FinalCountryOfDestination/><GenericField type="" format=""></GenericField>
+<AESVesselFlag></AESVesselFlag>
+<AESImportEntryNumber></AESImportEntryNumber>
+<AESInbondType></AESInbondType>
+<AESRelatedCompanies></AESRelatedCompanies>
+<AESRoutedTransaction></AESRoutedTransaction>
+<ReasonForExport></ReasonForExport>
+<ECCN></ECCN>
+<BlanketPeriodBeginDate></BlanketPeriodBeginDate>
+<BlanketPeriodEndDate></BlanketPeriodEndDate>
+</InternationalDetails>
+<Payment><Method>Third Party</Method>
+<BillTo><Address type="Bill To" isResidential="false" isPrimary="false"><AppointmentTime type="earliest">08:00 AM</AppointmentTime>
+<AppointmentTime type="latest">05:00 PM</AppointmentTime>
+<LocationCode>FutureBillTo</LocationCode>
+<Alias>FutureBillTo</Alias>
+<Name>Future Logistics</Name>
+<AddrLine1>PO Box 20068</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97294</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542800" latDirection="N" longDegrees="122498786" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+</BillTo>
+</Payment>
+<PODReceived>false</PODReceived>
+<RelatedParties></RelatedParties>
+<Status>Delivered</Status>
+<AssignedTo></AssignedTo>
+<Owner>ISOFLEX PACKAGING</Owner>
+<Audits><Audit timestamp="" user="SJENSSEN" action="Tendered"/></Audits>
+<Carriers><Carrier type="Responsible"><CarrierId>(22586980780,3840,0)</CarrierId>
+<CarrierName><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></CarrierName>
+<SCAC>NONE</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.8</Distance>
+<Id>892555</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="100000.00" company="PROGRESSIVE" expirationDate="04/30/2021 00:00" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>892555</LocationCode>
+<Alias>892555</Alias>
+<Name><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></Name>
+<AddrLine1>1101 D ST. APT B2</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>LINCOLN</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68502</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="40788700" latDirection="N" longDegrees="96714401" longDirection="W"></GeoLoc>
+<Contacts><Contact type="" oid="22586980829"><Name>YAIMA</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">531-220-2712</ContactMethod>
+<ContactMethod sequenceNum="2" type="Email">JACOBSTRUCKING@YAHOO.COM</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments></Comments>
+</Address>
+</Carrier>
+</Carriers>
+<TerminalInfo type="Carrier"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<TerminalInfo type="Customer"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<Dates><Pickup><Date type="earliest">01/22/2021 11:41</Date>
+<Date type="latest">01/22/2021 11:41</Date>
+<Date type="planned">01/22/2021 11:41</Date>
+<Date type="actual">01/22/2021 11:41</Date>
+<Date type="appointment">01/21/2021 17:00</Date>
+<Date type="appointmentEarly">01/21/2021 08:00</Date>
+<Date type="appointmentLate">01/21/2021 17:00</Date>
+</Pickup>
+<Drop><Date type="earliest">01/25/2021 15:04</Date>
+<Date type="latest">01/25/2021 17:04</Date>
+<Date type="planned">01/25/2021 15:04</Date>
+<Date type="actual">01/25/2021 17:04</Date>
+<Date type="appointment">01/25/2021 15:00</Date>
+<Date type="appointmentEarly">01/25/2021 09:00</Date>
+<Date type="appointmentLate">01/25/2021 15:00</Date>
+</Drop>
+</Dates>
+<Plan><Events count="3"><Event type="Pickup" sequenceNum="1" internalId="22586798231"><CarrierActionCode></CarrierActionCode>
+<Dates><Date type="earliest">01/21/2021 08:00</Date>
+<Date type="latest">01/21/2021 17:00</Date>
+<Date type="planned">01/21/2021 08:00</Date>
+<Date type="actual">01/22/2021 11:41</Date>
+<Date type="appointment">01/21/2021 17:00</Date>
+<Date type="appointmentEarly">01/21/2021 08:00</Date>
+<Date type="appointmentLate">01/21/2021 17:00</Date>
+</Dates>
+<LateReason code="BD">Border Clearance</LateReason>
+<AppointmentType/><Address type="Shipper" isResidential="false" isPrimary="false"><LocationCode>5644-S</LocationCode>
+<Alias>5644-S</Alias>
+<Name>ISOFLEX PACKAGE CORP</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="26233364" latDirection="N" longDegrees="80156845" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments>P/U# FUT01212021-2</Comments>
+</Address>
+<Weight type="firstAvail" uom="lb">38757.0</Weight>
+<Shipments><ReferenceNumbers><ReferenceNumber type="Shipment ID" isPrimary="true">SN1000005097</ReferenceNumber>
+</ReferenceNumbers>
+<ReferenceNumbers><ReferenceNumber type="Shipment ID" isPrimary="true">SN1000005096</ReferenceNumber>
+</ReferenceNumbers>
+</Shipments>
+<Activities><Activity type="Set Arrival / Departure"><ActivityID>First Stop</ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/21/2021 08:00</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/22/2021 11:41</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name>ISOFLEX PACKAGE CORP</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+</Activities>
+</Event>
+<Event type="Drop" sequenceNum="2" internalId="22586798242"><CarrierActionCode></CarrierActionCode>
+<Dates><Date type="earliest">01/25/2021 08:00</Date>
+<Date type="latest">01/25/2021 08:00</Date>
+<Date type="planned">01/25/2021 08:00</Date>
+<Date type="actual">01/25/2021 15:04</Date>
+<Date type="appointment">01/25/2021 08:00</Date>
+<Date type="appointmentEarly">01/25/2021 08:00</Date>
+<Date type="appointmentLate">01/25/2021 08:00</Date>
+</Dates>
+<LateReason code="BD">Border Clearance</LateReason>
+<AppointmentType/><Address type="Consignee" isResidential="false" isPrimary="false"><LocationCode/><Alias></Alias>
+<Name>HANTOVER</Name>
+<AddrLine1>2281 16TH AVE.</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>COLUMBUS</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68601</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="41449199" latDirection="N" longDegrees="97371963" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+<Weight type="firstAvail" uom="lb">11347.0</Weight>
+<Shipments><ReferenceNumbers><ReferenceNumber type="Shipment ID" isPrimary="true">SN1000005096</ReferenceNumber>
+</ReferenceNumbers>
+</Shipments>
+<Activities><Activity type="Set Arrival / Departure"><ActivityID>Stop 2</ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/25/2021 08:00</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/25/2021 18:04</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name>HANTOVER</Name>
+<AddrLine1>2281 16TH AVE.</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>COLUMBUS</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68601</PostalCode>
+<CountryCode>USA</CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+</Activities>
+</Event>
+<Event type="Drop" sequenceNum="3" internalId="22586798462"><CarrierActionCode></CarrierActionCode>
+<Dates><Date type="earliest">01/25/2021 09:00</Date>
+<Date type="latest">01/25/2021 15:00</Date>
+<Date type="planned">01/25/2021 09:00</Date>
+<Date type="actual">01/25/2021 17:04</Date>
+<Date type="appointment">01/25/2021 15:00</Date>
+<Date type="appointmentEarly">01/25/2021 09:00</Date>
+<Date type="appointmentLate">01/25/2021 15:00</Date>
+</Dates>
+<LateReason code="BD">Border Clearance</LateReason>
+<AppointmentType/><Address type="Consignee" isResidential="false" isPrimary="false"><LocationCode>6491</LocationCode>
+<Alias>6491</Alias>
+<Name>XPO LOGISTICS</Name>
+<AddrLine1>2401 EXPEDITION CT.</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>SIOUX CITY</City>
+<StateProvince>IA</StateProvince>
+<PostalCode>51111</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="42424541" latDirection="N" longDegrees="96374992" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+<Weight type="firstAvail" uom="lb">27410.0</Weight>
+<Shipments><ReferenceNumbers><ReferenceNumber type="Shipment ID" isPrimary="true">SN1000005097</ReferenceNumber>
+</ReferenceNumbers>
+</Shipments>
+<Activities><Activity type="Set Arrival / Departure"><ActivityID>Last Stop</ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/25/2021 09:00</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/25/2021 18:04</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name>XPO LOGISTICS</Name>
+<AddrLine1>2401 EXPEDITION CT.</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>SIOUX CITY</City>
+<StateProvince>IA</StateProvince>
+<PostalCode>51111</PostalCode>
+<CountryCode>USA</CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+</Activities>
+</Event>
+</Events>
+</Plan>
+<Shipments><Shipment internalId="22586798003" type="Regular"><ReferenceNumbers><ReferenceNumber type="Shipment ID" isPrimary="true">SN1000005096</ReferenceNumber>
+<ReferenceNumber type="Sales Rep" isPrimary="false">SJENSSEN</ReferenceNumber>
+<ReferenceNumber type="JobNumber" isPrimary="false">FUT01212021-2</ReferenceNumber>
+<ReferenceNumber type="Load ID" isPrimary="false">LD1000101118</ReferenceNumber>
+<ReferenceNumber type="SCAC" isPrimary="false">NONE</ReferenceNumber>
+<ReferenceNumber type="Publication" isPrimary="false">PACKAGING MATERIAL</ReferenceNumber>
+<ReferenceNumber type="Master Invoice Ref" isPrimary="false">M33405</ReferenceNumber>
+<ReferenceNumber type="Customer Acct Number" isPrimary="false">2187</ReferenceNumber>
+</ReferenceNumbers>
+<Comments><Comment type="SpecialInstructions"></Comment>
+</Comments>
+<Status>Delivered</Status>
+<AssignedTo></AssignedTo>
+<Owner>ISOFLEX PACKAGING</Owner>
+<Audits><Audit timestamp="" user="SJENSSEN" action="Tendered"/></Audits>
+<QuoteDetail><QuotedTo></QuotedTo>
+<QuotePhone></QuotePhone>
+<QuoteFax></QuoteFax>
+<QuoteEmail></QuoteEmail>
+<QuoteDate></QuoteDate>
+<QuoteBy>SJENSSEN</QuoteBy>
+</QuoteDetail>
+<Carriers><Carrier type="Planned"><CarrierId>(22586980780,3840,0)</CarrierId>
+<CarrierName><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></CarrierName>
+<SCAC>NONE</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.0</Distance>
+<Id>892555</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="100000.00" company="PROGRESSIVE" expirationDate="04/30/2021 00:00" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>892555</LocationCode>
+<Alias>892555</Alias>
+<Name><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></Name>
+<AddrLine1>1101 D ST. APT B2</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>LINCOLN</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68502</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="40788700" latDirection="N" longDegrees="96714401" longDirection="W"></GeoLoc>
+<Contacts><Contact type="" oid="22586980829"><Name>YAIMA</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">531-220-2712</ContactMethod>
+<ContactMethod sequenceNum="2" type="Email">JACOBSTRUCKING@YAHOO.COM</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments></Comments>
+</Address>
+</Carrier>
+</Carriers>
+<TerminalInfo type="Carrier"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<TerminalInfo type="Customer"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<EquipmentList></EquipmentList>
+<ScheduledEquipment></ScheduledEquipment>
+<Quantities><Quantity type="package" uom="PLT">9.0</Quantity>
+</Quantities>
+<Weights><Weight type="actual" uom="lb">11347.0</Weight>
+<Weight type="planned" uom="lb">11347.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Dimensions><Dimension type="LinearFeet" uom="ft">0.0</Dimension>
+<Dimension type="RatingCount" uom="ct">0.0</Dimension>
+</Dimensions>
+<Dates><Pickup><Date type="earliest">01/21/2021 08:00</Date>
+<Date type="latest">01/21/2021 17:00</Date>
+<Date type="actual">01/22/2021 11:41</Date>
+</Pickup>
+<Drop><Date type="earliest">01/25/2021 08:00</Date>
+<Date type="latest">01/25/2021 08:00</Date>
+<Date type="actual">01/25/2021 15:04</Date>
+</Drop>
+</Dates>
+<PriceSheets><PriceSheet type="Cost" chargeModel="NORMALIZED_MANUAL" isSelected="true" isAllocated="true" currencyCode="USD" createDate="01/21/2021 10:55" internalId="22586799130"><AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>907.19</SubTotal>
+<Total>907.19</Total>
+<NormalizedTotal currencyCode="USD">907.19</NormalizedTotal>
+<ContractId/><ContractName></ContractName>
+<CarrierId>(18937128737,3840,0)</CarrierId>
+<CarrierName>Future Logistics</CarrierName>
+<SCAC>FMFI</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.0</Distance>
+<Id>FL123541244</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>FutCarrPrim</LocationCode>
+<Alias>FutCarrPrim</Alias>
+<Name>Future Logisitics</Name>
+<AddrLine1>12067 Glenn Widing Drive</AddrLine1>
+<AddrLine2>Suite 104</AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97220</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542530" latDirection="N" longDegrees="122557632" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+<ReasonCode/><Status></Status>
+<LaneID>POMPANO BEACH,FL to SIOUX CITY</LaneID>
+<Zone/><RouteGuidePriority/><CarrierLocationOid>18937130914</CarrierLocationOid>
+<OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul</Description>
+<EdiCode></EdiCode>
+<Amount>907.19</Amount>
+<Rate>907.19</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+<PriceSheet type="Charge" chargeModel="NORMALIZED_MANUAL" isSelected="true" isAllocated="true" currencyCode="USD" createDate="01/21/2021 12:04" internalId="22586981896"><AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>792.66</SubTotal>
+<Total>792.66</Total>
+<NormalizedTotal currencyCode="USD">792.66</NormalizedTotal>
+<ContractId/><ContractName></ContractName>
+<CarrierId>(22586980780,3840,0)</CarrierId>
+<CarrierName><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></CarrierName>
+<SCAC>NONE</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.0</Distance>
+<Id>892555</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="100000.00" company="PROGRESSIVE" expirationDate="04/30/2021 00:00" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>892555</LocationCode>
+<Alias>892555</Alias>
+<Name><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></Name>
+<AddrLine1>1101 D ST. APT B2</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>LINCOLN</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68502</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="40788700" latDirection="N" longDegrees="96714401" longDirection="W"></GeoLoc>
+<Contacts><Contact type="" oid="22586980829"><Name>YAIMA</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">531-220-2712</ContactMethod>
+<ContactMethod sequenceNum="2" type="Email">JACOBSTRUCKING@YAHOO.COM</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments></Comments>
+</Address>
+<ReasonCode/><Status>Manual Quote</Status>
+<LaneID>POMPANO BEACH,FL to SIOUX CITY</LaneID>
+<Zone/><RouteGuidePriority/><CarrierLocationOid>22586980806</CarrierLocationOid>
+<OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul</Description>
+<EdiCode></EdiCode>
+<Amount>792.66</Amount>
+<Rate>792.66</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+<PriceSheet type="Invoice" chargeModel="NORMALIZED_MANUAL" isSelected="false" isAllocated="false" currencyCode="USD" createDate="01/26/2021 16:40" internalId="22594613753"><Consolidation count="0"></Consolidation>
+<Weight type="pricesheet" uom="lb">11347.0</Weight>
+<Settlement><Queue></Queue>
+<Total>0.00</Total>
+<ReasonCode></ReasonCode>
+<InvoiceNumber>226448</InvoiceNumber>
+<Date type="invoice">01/26/2021 00:00</Date>
+<PaymentMethod>Prepaid</PaymentMethod>
+<Comments></Comments>
+<Check><CheckNumber/><CheckAmount></CheckAmount>
+<CheckPayee/></Check>
+</Settlement>
+<RemitTo><Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>FutCarrPrim</LocationCode>
+<Alias>FutCarrPrim</Alias>
+<Name>Future Logisitics</Name>
+<AddrLine1>12067 Glenn Widing Drive</AddrLine1>
+<AddrLine2>Suite 104</AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97220</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542530" latDirection="N" longDegrees="122557632" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+</RemitTo>
+<InvoiceBillTo><Address type="Bill To" isResidential="false" isPrimary="false"><LocationCode>2187B</LocationCode>
+<Alias>2187B</Alias>
+<Name>ISOFLEX PACKAGING</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="26233364" latDirection="N" longDegrees="80156845" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments>MUST PROVIDE BL FOR EACH PO LISTED</Comments>
+</Address>
+</InvoiceBillTo>
+<ReferenceNumbers><ReferenceNumber type="Master Invoice Ref" isPrimary="false">M33405</ReferenceNumber>
+</ReferenceNumbers>
+<ReferenceNumbers type="priceSheet"></ReferenceNumbers>
+<Audits></Audits>
+<Activities><Activity type="Audit Invoice"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Pending</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/26/2021 16:40</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<StatusDetails>Price sheet variance must be less than $2.00 USD|Total variance [22586981896, 22594613753]|</StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+</Activities>
+<AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>907.19</SubTotal>
+<Total>907.19</Total>
+<NormalizedTotal currencyCode="USD">907.19</NormalizedTotal>
+<GLCode>1120-0000</GLCode>
+<ContractId/><ContractName></ContractName>
+<CarrierId>(18937128737,3840,0)</CarrierId>
+<CarrierName>Future Logistics</CarrierName>
+<SCAC>FMFI</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.0</Distance>
+<Id>FL123541244</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>FutCarrPrim</LocationCode>
+<Alias>FutCarrPrim</Alias>
+<Name>Future Logisitics</Name>
+<AddrLine1>12067 Glenn Widing Drive</AddrLine1>
+<AddrLine2>Suite 104</AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97220</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542530" latDirection="N" longDegrees="122557632" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+<ReasonCode/><Status></Status>
+<LaneID>POMPANO BEACH,FL to SIOUX CITY</LaneID>
+<Zone/><RouteGuidePriority/><CarrierLocationOid>18937130914</CarrierLocationOid>
+<OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul Charge</Description>
+<EdiCode></EdiCode>
+<Amount>907.19</Amount>
+<Rate>907.19</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+<PriceSheet type="Invoice" chargeModel="NORMALIZED_MANUAL" isSelected="false" isAllocated="false" currencyCode="USD" createDate="01/26/2021 16:40" internalId="22594613868"><Consolidation count="2"></Consolidation>
+<Weight type="pricesheet" uom="lb">38757.0</Weight>
+<Settlement><Queue>Audit Exception</Queue>
+<Total>0.00</Total>
+<ReasonCode></ReasonCode>
+<InvoiceNumber>M33405</InvoiceNumber>
+<Date type="invoice">01/26/2021 00:00</Date>
+<PaymentMethod></PaymentMethod>
+<Comments>masterInvoiceDateRange=01/26/2021 01/26/2021;</Comments>
+<Check><CheckNumber/><CheckAmount></CheckAmount>
+<CheckPayee/></Check>
+</Settlement>
+<RemitTo></RemitTo>
+<InvoiceBillTo><Address type="Bill To" isResidential="false" isPrimary="false"><LocationCode>2187B</LocationCode>
+<Alias>2187B</Alias>
+<Name>ISOFLEX PACKAGING</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="26233364" latDirection="N" longDegrees="80156845" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments>MUST PROVIDE BL FOR EACH PO LISTED</Comments>
+</Address>
+</InvoiceBillTo>
+<ReferenceNumbers></ReferenceNumbers>
+<ReferenceNumbers type="priceSheet"></ReferenceNumbers>
+<Audits></Audits>
+<Activities><Activity type="Audit Invoice"><ActivityID></ActivityID>
+<Summary>Validation</Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Pending</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/26/2021 17:40</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+</Activities>
+<AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>2289.00</SubTotal>
+<Total>2289.00</Total>
+<NormalizedTotal currencyCode="USD">2289.00</NormalizedTotal>
+<GLCode>1120-0000</GLCode>
+<ContractId/><ContractName></ContractName>
+<CarrierId/><CarrierName/><SCAC>none</SCAC>
+<Mode/><Service/><ServiceDays>0.0</ServiceDays>
+<Distance>0.0</Distance>
+<ReasonCode/><Status></Status>
+<LaneID/><Zone/><RouteGuidePriority/><CarrierLocationOid/><OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul Charge</Description>
+<EdiCode>DEL</EdiCode>
+<Amount>2289.00</Amount>
+<Rate>2289.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+<Charge sequenceNum="2" type="ACCESSORIAL_FUEL" itemGroupId=""><Description>Total Fuel Charge</Description>
+<EdiCode>FSC</EdiCode>
+<Amount>0.00</Amount>
+<Rate>0.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+<Charge sequenceNum="3" type="ACCESSORIAL" itemGroupId=""><Description>Total Other Accessorial Charge</Description>
+<EdiCode>MSG</EdiCode>
+<Amount>0.00</Amount>
+<Rate>0.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+<Charge sequenceNum="4" type="ACCESSORIAL" itemGroupId=""><Description>Total Detention Charge</Description>
+<EdiCode>DET</EdiCode>
+<Amount>0.00</Amount>
+<Rate>0.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+<Charge sequenceNum="5" type="ACCESSORIAL_PERCENTAGE_TOTAL" itemGroupId=""><Description>Total Tax Charge</Description>
+<EdiCode>TAX</EdiCode>
+<Amount>0.00</Amount>
+<Rate>0.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+</PriceSheets>
+<Shipper><Address type="Shipper" isResidential="false" isPrimary="false"><LocationCode>5644-S</LocationCode>
+<Alias>5644-S</Alias>
+<Name>ISOFLEX PACKAGE CORP</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="26233364" latDirection="N" longDegrees="80156845" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments>P/U# FUT01212021-2</Comments>
+</Address>
+</Shipper>
+<Consignee><Address type="Consignee" isResidential="false" isPrimary="false"><LocationCode/><Alias></Alias>
+<Name>HANTOVER</Name>
+<AddrLine1>2281 16TH AVE.</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>COLUMBUS</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68601</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="41449199" latDirection="N" longDegrees="97371963" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+</Consignee>
+<Services/><Packages><Package type=""><Dimensions><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Weights><Weight type="actual" uom="lb">11347.0</Weight>
+<Weight type="planned" uom="lb">11347.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<ItemGroups><ItemGroup type="22586798144" isShipUnit="false"><Description>PACKAGING MATERIAL</Description>
+<ContainmentId>0</ContainmentId>
+<Weights><Weight type="actual" uom="lb">11347.0</Weight>
+<Weight type="planned" uom="lb">11347.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="actual" uom="PLT">9.0</Quantity>
+<Quantity type="planned" uom="PLT">9.0</Quantity>
+<Quantity type="ordered" uom="">0.0</Quantity>
+<Quantity type="delivered" uom="">0.0</Quantity>
+</Quantities>
+<FreightClass type="delivered">0.0</FreightClass>
+<Dimensions type="actual"><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Dimensions type="planned"><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Stackability>0</Stackability>
+<TrackingNumber/><DeliveryStatus/><ReferenceNumbers></ReferenceNumbers>
+<LineItem lineNumber="-1"><Weights><Weight type="ordered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="ordered" uom="">0.0</Quantity>
+</Quantities>
+<ItemId>PACKAGING MATERIAL</ItemId>
+<Description>PACKAGING MATERIAL</Description>
+<FreightClass>55.0</FreightClass>
+<Commodity/><NmfcCode/><StccCode/><CustomerPartNum></CustomerPartNum>
+<ManufacturerPartNum></ManufacturerPartNum>
+<DistributorPartNum></DistributorPartNum>
+<Cube>0.0</Cube>
+<TemperatureRange/><HazardousMaterial>false</HazardousMaterial>
+<HazMatDetail><ProperShippingName></ProperShippingName>
+<HazMatID></HazMatID>
+<PackageGroup></PackageGroup>
+<HazMatClass></HazMatClass>
+<ContactName></ContactName>
+<ContactPhone></ContactPhone>
+<HazMatPlacards>false</HazMatPlacards>
+<HazMatPlacardsDetails/><HazMatEMSNumber/><HazMatFlashPointTemp/><Comments/></HazMatDetail>
+<Dimensions><Dimension type="Length" uom="in">0.0</Dimension>
+<Dimension type="Width" uom="in">0.0</Dimension>
+<Dimension type="Height" uom="in">0.0</Dimension>
+</Dimensions>
+<HarmonizedTariffCode/><PortOfLading/><CountryOfOrigin/><CountryOfManufacture/><CustomsValue></CustomsValue>
+<CustomsValueCurrency/><InsuredValue></InsuredValue>
+<InsuredValueCurrency/><AESExportCode/><AESLicenseNumber/><AESLicenseType/><ReferenceNumbers></ReferenceNumbers>
+</LineItem>
+</ItemGroup>
+</ItemGroups>
+</Package>
+</Packages>
+<Payment><Method>Prepaid</Method>
+<BillTo thirdParty="true"><Address type="Bill To" isResidential="false" isPrimary="false"><LocationCode>2187B</LocationCode>
+<Alias>2187B</Alias>
+<Name>ISOFLEX PACKAGING</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="26233364" latDirection="N" longDegrees="80156845" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments>MUST PROVIDE BL FOR EACH PO LISTED</Comments>
+</Address>
+</BillTo>
+</Payment>
+<PODReceived>false</PODReceived>
+<RelatedParties></RelatedParties>
+<Orders></Orders>
+<LateReason code="BD">Border Clearance</LateReason>
+<Notes/><OriginalSource></OriginalSource>
+<Enterprise name="ISOFLEX PACKAGING" parentName="Future Admin" active="true">
+<MultiNational>false</MultiNational>
+<Type>Customer</Type>
+<Description>ISOFLEX PACKAGE CORP</Description>
+<CustomerAcctNum>2187</CustomerAcctNum>
+<FederalEIN></FederalEIN>
+<DUNS></DUNS>
+<PrimarySIC>0000</PrimarySIC>
+<Ranking></Ranking>
+<CarrierInvoicePODRequired>false</CarrierInvoicePODRequired>
+<CustomerInvoicePODRequired>false</CustomerInvoicePODRequired>
+<Credit cashOnly="false" limit="0.0" checkOnShipmentDuplicate="false"/><Visibility login="true" quote="true"/><DisplayNotes></DisplayNotes>
+<Locations></Locations>
+</Enterprise>
+<Correspondence><Address type="Corporate" isResidential="false" isPrimary="false"><AppointmentTime type="earliest">08:00 AM</AppointmentTime>
+<AppointmentTime type="latest">05:00 PM</AppointmentTime>
+<LocationCode>flcorrespondence</LocationCode>
+<Alias>flcorrespondence</Alias>
+<Name>Future Logistics Correspondence</Name>
+<AddrLine1>PO Box 20068</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97294</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542800" latDirection="N" longDegrees="122498786" longDirection="W"></GeoLoc>
+<Contacts><Contact type="" oid="18964642770"><Name>Info</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">(503) 416-2480</ContactMethod>
+<ContactMethod sequenceNum="2" type="Fax">(503) 416-2486</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments></Comments>
+</Address>
+</Correspondence>
+<Activities></Activities>
+</Shipment>
+<Shipment internalId="22586798306" type="Regular"><ReferenceNumbers><ReferenceNumber type="Shipment ID" isPrimary="true">SN1000005097</ReferenceNumber>
+<ReferenceNumber type="Sales Rep" isPrimary="false">SJENSSEN</ReferenceNumber>
+<ReferenceNumber type="JobNumber" isPrimary="false">FUT01212021-2</ReferenceNumber>
+<ReferenceNumber type="Load ID" isPrimary="false">LD1000101118</ReferenceNumber>
+<ReferenceNumber type="SCAC" isPrimary="false">NONE</ReferenceNumber>
+<ReferenceNumber type="Publication" isPrimary="false">PACKAGING MATERIAL</ReferenceNumber>
+<ReferenceNumber type="Master Invoice Ref" isPrimary="false">M33405</ReferenceNumber>
+<ReferenceNumber type="Customer Acct Number" isPrimary="false">2187</ReferenceNumber>
+</ReferenceNumbers>
+<Comments><Comment type="SpecialInstructions"></Comment>
+</Comments>
+<Status>Delivered</Status>
+<AssignedTo></AssignedTo>
+<Owner>ISOFLEX PACKAGING</Owner>
+<Audits><Audit timestamp="" user="SJENSSEN" action="Tendered"/></Audits>
+<QuoteDetail><QuotedTo></QuotedTo>
+<QuotePhone></QuotePhone>
+<QuoteFax></QuoteFax>
+<QuoteEmail></QuoteEmail>
+<QuoteDate></QuoteDate>
+<QuoteBy>SJENSSEN</QuoteBy>
+</QuoteDetail>
+<Carriers><Carrier type="Planned"><CarrierId>(22586980780,3840,0)</CarrierId>
+<CarrierName><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></CarrierName>
+<SCAC>NONE</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.8</Distance>
+<Id>892555</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="100000.00" company="PROGRESSIVE" expirationDate="04/30/2021 00:00" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>892555</LocationCode>
+<Alias>892555</Alias>
+<Name><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></Name>
+<AddrLine1>1101 D ST. APT B2</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>LINCOLN</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68502</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="40788700" latDirection="N" longDegrees="96714401" longDirection="W"></GeoLoc>
+<Contacts><Contact type="" oid="22586980829"><Name>YAIMA</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">531-220-2712</ContactMethod>
+<ContactMethod sequenceNum="2" type="Email">JACOBSTRUCKING@YAHOO.COM</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments></Comments>
+</Address>
+</Carrier>
+</Carriers>
+<TerminalInfo type="Carrier"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<TerminalInfo type="Customer"><Origin></Origin>
+<Destination></Destination>
+</TerminalInfo>
+<EquipmentList></EquipmentList>
+<ScheduledEquipment></ScheduledEquipment>
+<Quantities><Quantity type="package" uom="PLT">26.0</Quantity>
+</Quantities>
+<Weights><Weight type="actual" uom="lb">27410.0</Weight>
+<Weight type="planned" uom="lb">27410.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Dimensions><Dimension type="LinearFeet" uom="ft">0.0</Dimension>
+<Dimension type="RatingCount" uom="ct">0.0</Dimension>
+</Dimensions>
+<Dates><Pickup><Date type="earliest">01/21/2021 08:00</Date>
+<Date type="latest">01/21/2021 17:00</Date>
+<Date type="actual">01/22/2021 11:41</Date>
+</Pickup>
+<Drop><Date type="earliest">01/25/2021 09:00</Date>
+<Date type="latest">01/25/2021 15:00</Date>
+<Date type="actual">01/25/2021 17:04</Date>
+</Drop>
+</Dates>
+<PriceSheets><PriceSheet type="Cost" chargeModel="NORMALIZED_MANUAL" isSelected="true" isAllocated="true" currencyCode="USD" createDate="01/21/2021 10:55" internalId="22586799145"><AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>1381.81</SubTotal>
+<Total>1381.81</Total>
+<NormalizedTotal currencyCode="USD">1381.81</NormalizedTotal>
+<ContractId/><ContractName></ContractName>
+<CarrierId>(18937128737,3840,0)</CarrierId>
+<CarrierName>Future Logistics</CarrierName>
+<SCAC>FMFI</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.8</Distance>
+<Id>FL123541244</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>FutCarrPrim</LocationCode>
+<Alias>FutCarrPrim</Alias>
+<Name>Future Logisitics</Name>
+<AddrLine1>12067 Glenn Widing Drive</AddrLine1>
+<AddrLine2>Suite 104</AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97220</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542530" latDirection="N" longDegrees="122557632" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+<ReasonCode/><Status></Status>
+<LaneID>POMPANO BEACH,FL to SIOUX CITY</LaneID>
+<Zone/><RouteGuidePriority/><CarrierLocationOid>18937130914</CarrierLocationOid>
+<OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul</Description>
+<EdiCode></EdiCode>
+<Amount>1381.81</Amount>
+<Rate>1381.81</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+<PriceSheet type="Charge" chargeModel="NORMALIZED_MANUAL" isSelected="true" isAllocated="true" currencyCode="USD" createDate="01/21/2021 12:04" internalId="22586981901"><AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>1207.34</SubTotal>
+<Total>1207.34</Total>
+<NormalizedTotal currencyCode="USD">1207.34</NormalizedTotal>
+<ContractId/><ContractName></ContractName>
+<CarrierId>(22586980780,3840,0)</CarrierId>
+<CarrierName><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></CarrierName>
+<SCAC>NONE</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.8</Distance>
+<Id>892555</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="100000.00" company="PROGRESSIVE" expirationDate="04/30/2021 00:00" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>892555</LocationCode>
+<Alias>892555</Alias>
+<Name><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></Name>
+<AddrLine1>1101 D ST. APT B2</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>LINCOLN</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68502</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="40788700" latDirection="N" longDegrees="96714401" longDirection="W"></GeoLoc>
+<Contacts><Contact type="" oid="22586980829"><Name>YAIMA</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">531-220-2712</ContactMethod>
+<ContactMethod sequenceNum="2" type="Email">JACOBSTRUCKING@YAHOO.COM</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments></Comments>
+</Address>
+<ReasonCode/><Status>Manual Quote</Status>
+<LaneID>POMPANO BEACH,FL to SIOUX CITY</LaneID>
+<Zone/><RouteGuidePriority/><CarrierLocationOid>22586980806</CarrierLocationOid>
+<OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul</Description>
+<EdiCode></EdiCode>
+<Amount>1207.34</Amount>
+<Rate>1207.34</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+<PriceSheet type="Invoice" chargeModel="NORMALIZED_MANUAL" isSelected="false" isAllocated="false" currencyCode="USD" createDate="01/26/2021 16:40" internalId="22594613810"><Consolidation count="0"></Consolidation>
+<Weight type="pricesheet" uom="lb">27410.0</Weight>
+<Settlement><Queue></Queue>
+<Total>0.00</Total>
+<ReasonCode></ReasonCode>
+<InvoiceNumber>226449</InvoiceNumber>
+<Date type="invoice">01/26/2021 00:00</Date>
+<PaymentMethod>Prepaid</PaymentMethod>
+<Comments></Comments>
+<Check><CheckNumber/><CheckAmount></CheckAmount>
+<CheckPayee/></Check>
+</Settlement>
+<RemitTo><Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>FutCarrPrim</LocationCode>
+<Alias>FutCarrPrim</Alias>
+<Name>Future Logisitics</Name>
+<AddrLine1>12067 Glenn Widing Drive</AddrLine1>
+<AddrLine2>Suite 104</AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97220</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542530" latDirection="N" longDegrees="122557632" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+</RemitTo>
+<InvoiceBillTo><Address type="Bill To" isResidential="false" isPrimary="false"><LocationCode>2187B</LocationCode>
+<Alias>2187B</Alias>
+<Name>ISOFLEX PACKAGING</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="26233364" latDirection="N" longDegrees="80156845" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments>MUST PROVIDE BL FOR EACH PO LISTED</Comments>
+</Address>
+</InvoiceBillTo>
+<ReferenceNumbers><ReferenceNumber type="Master Invoice Ref" isPrimary="false">M33405</ReferenceNumber>
+</ReferenceNumbers>
+<ReferenceNumbers type="priceSheet"></ReferenceNumbers>
+<Audits></Audits>
+<Activities><Activity type="Audit Invoice"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Pending</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/26/2021 16:40</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<StatusDetails>Price sheet variance must be less than $2.00 USD|Total variance [22586981901, 22594613810]|</StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+</Activities>
+<AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>1381.81</SubTotal>
+<Total>1381.81</Total>
+<NormalizedTotal currencyCode="USD">1381.81</NormalizedTotal>
+<GLCode>1120-0000</GLCode>
+<ContractId/><ContractName></ContractName>
+<CarrierId>(18937128737,3840,0)</CarrierId>
+<CarrierName>Future Logistics</CarrierName>
+<SCAC>FMFI</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.8</Distance>
+<Id>FL123541244</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>FutCarrPrim</LocationCode>
+<Alias>FutCarrPrim</Alias>
+<Name>Future Logisitics</Name>
+<AddrLine1>12067 Glenn Widing Drive</AddrLine1>
+<AddrLine2>Suite 104</AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97220</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542530" latDirection="N" longDegrees="122557632" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+<ReasonCode/><Status></Status>
+<LaneID>POMPANO BEACH,FL to SIOUX CITY</LaneID>
+<Zone/><RouteGuidePriority/><CarrierLocationOid>18937130914</CarrierLocationOid>
+<OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul Charge</Description>
+<EdiCode></EdiCode>
+<Amount>1381.81</Amount>
+<Rate>1381.81</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+<PriceSheet type="Invoice" chargeModel="NORMALIZED_MANUAL" isSelected="false" isAllocated="false" currencyCode="USD" createDate="01/26/2021 16:40" internalId="22594613868"><Consolidation count="2"></Consolidation>
+<Weight type="pricesheet" uom="lb">38757.0</Weight>
+<Settlement><Queue>Audit Exception</Queue>
+<Total>0.00</Total>
+<ReasonCode></ReasonCode>
+<InvoiceNumber>M33405</InvoiceNumber>
+<Date type="invoice">01/26/2021 00:00</Date>
+<PaymentMethod></PaymentMethod>
+<Comments>masterInvoiceDateRange=01/26/2021 01/26/2021;</Comments>
+<Check><CheckNumber/><CheckAmount></CheckAmount>
+<CheckPayee/></Check>
+</Settlement>
+<RemitTo></RemitTo>
+<InvoiceBillTo><Address type="Bill To" isResidential="false" isPrimary="false"><LocationCode>2187B</LocationCode>
+<Alias>2187B</Alias>
+<Name>ISOFLEX PACKAGING</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="26233364" latDirection="N" longDegrees="80156845" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments>MUST PROVIDE BL FOR EACH PO LISTED</Comments>
+</Address>
+</InvoiceBillTo>
+<ReferenceNumbers></ReferenceNumbers>
+<ReferenceNumbers type="priceSheet"></ReferenceNumbers>
+<Audits></Audits>
+<Activities><Activity type="Audit Invoice"><ActivityID></ActivityID>
+<Summary>Validation</Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Pending</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/26/2021 17:40</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+</Activities>
+<AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>2289.00</SubTotal>
+<Total>2289.00</Total>
+<NormalizedTotal currencyCode="USD">2289.00</NormalizedTotal>
+<GLCode>1120-0000</GLCode>
+<ContractId/><ContractName></ContractName>
+<CarrierId/><CarrierName/><SCAC>none</SCAC>
+<Mode/><Service/><ServiceDays>0.0</ServiceDays>
+<Distance>0.0</Distance>
+<ReasonCode/><Status></Status>
+<LaneID/><Zone/><RouteGuidePriority/><CarrierLocationOid/><OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul Charge</Description>
+<EdiCode>DEL</EdiCode>
+<Amount>2289.00</Amount>
+<Rate>2289.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+<Charge sequenceNum="2" type="ACCESSORIAL_FUEL" itemGroupId=""><Description>Total Fuel Charge</Description>
+<EdiCode>FSC</EdiCode>
+<Amount>0.00</Amount>
+<Rate>0.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+<Charge sequenceNum="3" type="ACCESSORIAL" itemGroupId=""><Description>Total Other Accessorial Charge</Description>
+<EdiCode>MSG</EdiCode>
+<Amount>0.00</Amount>
+<Rate>0.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+<Charge sequenceNum="4" type="ACCESSORIAL" itemGroupId=""><Description>Total Detention Charge</Description>
+<EdiCode>DET</EdiCode>
+<Amount>0.00</Amount>
+<Rate>0.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+<Charge sequenceNum="5" type="ACCESSORIAL_PERCENTAGE_TOTAL" itemGroupId=""><Description>Total Tax Charge</Description>
+<EdiCode>TAX</EdiCode>
+<Amount>0.00</Amount>
+<Rate>0.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>3100-2000</GLCode>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+</PriceSheets>
+<Shipper><Address type="Shipper" isResidential="false" isPrimary="false"><LocationCode>5644-S</LocationCode>
+<Alias>5644-S</Alias>
+<Name>ISOFLEX PACKAGE CORP</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="26233364" latDirection="N" longDegrees="80156845" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments>P/U# FUT01212021-2</Comments>
+</Address>
+</Shipper>
+<Consignee><Address type="Consignee" isResidential="false" isPrimary="false"><LocationCode>6491</LocationCode>
+<Alias>6491</Alias>
+<Name>XPO LOGISTICS</Name>
+<AddrLine1>2401 EXPEDITION CT.</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>SIOUX CITY</City>
+<StateProvince>IA</StateProvince>
+<PostalCode>51111</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="42424541" latDirection="N" longDegrees="96374992" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+</Consignee>
+<Services/><Packages><Package type=""><Dimensions><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Weights><Weight type="actual" uom="lb">27410.0</Weight>
+<Weight type="planned" uom="lb">27410.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<ItemGroups><ItemGroup type="22586798412" isShipUnit="false"><Description>PACKAGING MATERIAL</Description>
+<ContainmentId>1</ContainmentId>
+<Weights><Weight type="actual" uom="lb">27410.0</Weight>
+<Weight type="planned" uom="lb">27410.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="actual" uom="PLT">26.0</Quantity>
+<Quantity type="planned" uom="PLT">26.0</Quantity>
+<Quantity type="ordered" uom="">0.0</Quantity>
+<Quantity type="delivered" uom="">0.0</Quantity>
+</Quantities>
+<FreightClass type="delivered">0.0</FreightClass>
+<Dimensions type="actual"><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Dimensions type="planned"><Dimension type="Length" uom=" ">0.0</Dimension>
+<Dimension type="Width" uom=" ">0.0</Dimension>
+<Dimension type="Height" uom=" ">0.0</Dimension>
+</Dimensions>
+<Stackability>0</Stackability>
+<TrackingNumber/><DeliveryStatus/><ReferenceNumbers></ReferenceNumbers>
+<LineItem lineNumber="-1"><Weights><Weight type="ordered" uom="lb">0.0</Weight>
+</Weights>
+<Quantities><Quantity type="ordered" uom="">0.0</Quantity>
+</Quantities>
+<ItemId>PACKAGING MATERIAL</ItemId>
+<Description>PACKAGING MATERIAL</Description>
+<FreightClass>55.0</FreightClass>
+<Commodity/><NmfcCode/><StccCode/><CustomerPartNum></CustomerPartNum>
+<ManufacturerPartNum></ManufacturerPartNum>
+<DistributorPartNum></DistributorPartNum>
+<Cube>0.0</Cube>
+<TemperatureRange/><HazardousMaterial>false</HazardousMaterial>
+<HazMatDetail><ProperShippingName></ProperShippingName>
+<HazMatID></HazMatID>
+<PackageGroup></PackageGroup>
+<HazMatClass></HazMatClass>
+<ContactName></ContactName>
+<ContactPhone></ContactPhone>
+<HazMatPlacards>false</HazMatPlacards>
+<HazMatPlacardsDetails/><HazMatEMSNumber/><HazMatFlashPointTemp/><Comments/></HazMatDetail>
+<Dimensions><Dimension type="Length" uom="in">0.0</Dimension>
+<Dimension type="Width" uom="in">0.0</Dimension>
+<Dimension type="Height" uom="in">0.0</Dimension>
+</Dimensions>
+<HarmonizedTariffCode/><PortOfLading/><CountryOfOrigin/><CountryOfManufacture/><CustomsValue></CustomsValue>
+<CustomsValueCurrency/><InsuredValue></InsuredValue>
+<InsuredValueCurrency/><AESExportCode/><AESLicenseNumber/><AESLicenseType/><ReferenceNumbers></ReferenceNumbers>
+</LineItem>
+</ItemGroup>
+</ItemGroups>
+</Package>
+</Packages>
+<Payment><Method>Prepaid</Method>
+<BillTo thirdParty="true"><Address type="Bill To" isResidential="false" isPrimary="false"><LocationCode>2187B</LocationCode>
+<Alias>2187B</Alias>
+<Name>ISOFLEX PACKAGING</Name>
+<AddrLine1>1531 NW 12TH AVE</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>POMPANO BEACH</City>
+<StateProvince>FL</StateProvince>
+<PostalCode>33069</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="26233364" latDirection="N" longDegrees="80156845" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments>MUST PROVIDE BL FOR EACH PO LISTED</Comments>
+</Address>
+</BillTo>
+</Payment>
+<PODReceived>false</PODReceived>
+<RelatedParties></RelatedParties>
+<Orders></Orders>
+<LateReason code="BD">Border Clearance</LateReason>
+<Notes/><OriginalSource></OriginalSource>
+<Enterprise name="ISOFLEX PACKAGING" parentName="Future Admin" active="true">
+<MultiNational>false</MultiNational>
+<Type>Customer</Type>
+<Description>ISOFLEX PACKAGE CORP</Description>
+<CustomerAcctNum>2187</CustomerAcctNum>
+<FederalEIN></FederalEIN>
+<DUNS></DUNS>
+<PrimarySIC>0000</PrimarySIC>
+<Ranking></Ranking>
+<CarrierInvoicePODRequired>false</CarrierInvoicePODRequired>
+<CustomerInvoicePODRequired>false</CustomerInvoicePODRequired>
+<Credit cashOnly="false" limit="0.0" checkOnShipmentDuplicate="false"/><Visibility login="true" quote="true"/><DisplayNotes></DisplayNotes>
+<Locations></Locations>
+</Enterprise>
+<Correspondence><Address type="Corporate" isResidential="false" isPrimary="false"><AppointmentTime type="earliest">08:00 AM</AppointmentTime>
+<AppointmentTime type="latest">05:00 PM</AppointmentTime>
+<LocationCode>flcorrespondence</LocationCode>
+<Alias>flcorrespondence</Alias>
+<Name>Future Logistics Correspondence</Name>
+<AddrLine1>PO Box 20068</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97294</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542800" latDirection="N" longDegrees="122498786" longDirection="W"></GeoLoc>
+<Contacts><Contact type="" oid="18964642770"><Name>Info</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">(503) 416-2480</ContactMethod>
+<ContactMethod sequenceNum="2" type="Fax">(503) 416-2486</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments></Comments>
+</Address>
+</Correspondence>
+<Activities></Activities>
+</Shipment>
+</Shipments>
+<Weights><Weight type="actual" uom="lb">38757.0</Weight>
+<Weight type="planned" uom="lb">38757.0</Weight>
+<Weight type="ordered" uom="lb">0.0</Weight>
+<Weight type="delivered" uom="lb">0.0</Weight>
+</Weights>
+<Dimensions><Dimension type="LinearFeet" uom="ft">0.0</Dimension>
+<Dimension type="RatingCount" uom="ct">0.0</Dimension>
+</Dimensions>
+<Quantities><Quantity type="actual">35.0</Quantity>
+<Quantity type="planned">0.0</Quantity>
+<Quantity type="ordered">0.0</Quantity>
+<Quantity type="delivered">0.0</Quantity>
+</Quantities>
+<PriceSheets><PriceSheet type="Cost" chargeModel="NORMALIZED_MANUAL" isSelected="true" isAllocated="false" currencyCode="USD" createDate="01/21/2021 10:55" internalId="22586799104"><AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>2289.00</SubTotal>
+<Total>2289.00</Total>
+<NormalizedTotal currencyCode="USD">2289.00</NormalizedTotal>
+<ContractId/><ContractName></ContractName>
+<CarrierId>(18937128737,3840,0)</CarrierId>
+<CarrierName>Future Logistics</CarrierName>
+<SCAC>FMFI</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.8</Distance>
+<Id>FL123541244</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>FutCarrPrim</LocationCode>
+<Alias>FutCarrPrim</Alias>
+<Name>Future Logisitics</Name>
+<AddrLine1>12067 Glenn Widing Drive</AddrLine1>
+<AddrLine2>Suite 104</AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97220</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542530" latDirection="N" longDegrees="122557632" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+<ReasonCode/><Status></Status>
+<LaneID>POMPANO BEACH,FL to SIOUX CITY</LaneID>
+<Zone/><RouteGuidePriority/><CarrierLocationOid>18937130914</CarrierLocationOid>
+<OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul</Description>
+<EdiCode></EdiCode>
+<Amount>2289.00</Amount>
+<Rate>2289.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+<PriceSheet type="Charge" chargeModel="NORMALIZED_MANUAL" isSelected="true" isAllocated="false" currencyCode="USD" createDate="01/21/2021 12:04" internalId="22586981720"><AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>2000.00</SubTotal>
+<Total>2000.00</Total>
+<NormalizedTotal currencyCode="USD">2000.00</NormalizedTotal>
+<ContractId/><ContractName></ContractName>
+<CarrierId>(22586980780,3840,0)</CarrierId>
+<CarrierName><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></CarrierName>
+<SCAC>NONE</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.8</Distance>
+<Id>892555</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="100000.00" company="PROGRESSIVE" expirationDate="04/30/2021 00:00" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>892555</LocationCode>
+<Alias>892555</Alias>
+<Name><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></Name>
+<AddrLine1>1101 D ST. APT B2</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>LINCOLN</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68502</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="40788700" latDirection="N" longDegrees="96714401" longDirection="W"></GeoLoc>
+<Contacts><Contact type="" oid="22586980829"><Name>YAIMA</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">531-220-2712</ContactMethod>
+<ContactMethod sequenceNum="2" type="Email">JACOBSTRUCKING@YAHOO.COM</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments></Comments>
+</Address>
+<ReasonCode/><Status>Booked</Status>
+<LaneID>POMPANO BEACH,FL to SIOUX CITY</LaneID>
+<Zone/><RouteGuidePriority/><CarrierLocationOid>22586980806</CarrierLocationOid>
+<OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul</Description>
+<EdiCode></EdiCode>
+<Amount>2000.00</Amount>
+<Rate>2000.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+</Charge>
+</Charges>
+<Comments/><QuoteInformation><QuoteNumber/><Date type="ExpirationDate"></Date>
+<QuoteBy>YAIMA</QuoteBy>
+<QuotePhone>531-220-2712</QuotePhone>
+<QuoteFax/><QuoteEmail>JACOBSTRUCKING@YAHOO.COM</QuoteEmail>
+</QuoteInformation>
+</PriceSheet>
+<PriceSheet type="Billed" chargeModel="NORMALIZED_MANUAL" isSelected="true" isAllocated="false" currencyCode="USD" createDate="01/26/2021 15:47" internalId="22594496240"><Consolidation count="0"></Consolidation>
+<Weight type="pricesheet" uom="lb">38757.0</Weight>
+<Settlement><Queue>Ready for QB</Queue>
+<Total>0.00</Total>
+<ReasonCode></ReasonCode>
+<InvoiceNumber>101118</InvoiceNumber>
+<Date type="invoice">01/26/2021 00:00</Date>
+<PaymentMethod>Third Party</PaymentMethod>
+<Comments></Comments>
+<Check><CheckNumber/><CheckAmount></CheckAmount>
+<CheckPayee/></Check>
+</Settlement>
+<RemitTo></RemitTo>
+<InvoiceBillTo><Address type="Bill To" isResidential="false" isPrimary="false"><AppointmentTime type="earliest">07:00 AM</AppointmentTime>
+<AppointmentTime type="latest">03:00 PM</AppointmentTime>
+<LocationCode>FutureBillTo</LocationCode>
+<Alias>FutureBillTo</Alias>
+<Name>Future Logistics</Name>
+<AddrLine1>PO Box 20068</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>Portland</City>
+<StateProvince>OR</StateProvince>
+<PostalCode>97294</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="45542800" latDirection="N" longDegrees="122498786" longDirection="W"></GeoLoc>
+<Contacts></Contacts>
+<Comments></Comments>
+</Address>
+</InvoiceBillTo>
+<ReferenceNumbers></ReferenceNumbers>
+<ReferenceNumbers type="priceSheet"></ReferenceNumbers>
+<Audits><Audit timestamp="02/24/2021 16:19" user="" action="Extracted"></Audit>
+</Audits>
+<Activities><Activity type="Approve Invoice"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/26/2021 15:47</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/26/2021 15:47</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Ready to Extract"><ActivityID></ActivityID>
+<Summary>4.0</Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Pending</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/26/2021 15:47</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+</Activities>
+<AccessorialTotal>0.00</AccessorialTotal>
+<SubTotal>2000.00</SubTotal>
+<Total>2000.00</Total>
+<NormalizedTotal currencyCode="USD">2000.00</NormalizedTotal>
+<GLCode>2100-0000</GLCode>
+<ContractId/><ContractName></ContractName>
+<CarrierId>(22586980780,3840,0)</CarrierId>
+<CarrierName><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></CarrierName>
+<SCAC>NONE</SCAC>
+<Mode>TL</Mode>
+<Service>Standard</Service>
+<ServiceDays>0.0</ServiceDays>
+<Distance>1711.8</Distance>
+<Id>892555</Id>
+<InsuranceTypes><Insurance type="Cargo" amount="100000.00" company="PROGRESSIVE" expirationDate="04/30/2021 00:00" contactName="" contactPhone=""/>
+<Insurance type="General" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+<Insurance type="Liability" amount="0.00" company="" expirationDate="" contactName="" contactPhone=""/>
+</InsuranceTypes>
+<Address type="Carrier" isResidential="false" isPrimary="false"><LocationCode>892555</LocationCode>
+<Alias>892555</Alias>
+<Name><![CDATA[JACOB'S FAMILY TRUCKING LLC]]></Name>
+<AddrLine1>1101 D ST. APT B2</AddrLine1>
+<AddrLine2></AddrLine2>
+<City>LINCOLN</City>
+<StateProvince>NE</StateProvince>
+<PostalCode>68502</PostalCode>
+<CountryCode>USA</CountryCode>
+<GeoLoc latDegrees="40788700" latDirection="N" longDegrees="96714401" longDirection="W"></GeoLoc>
+<Contacts><Contact type="" oid="22586980829"><Name>YAIMA</Name>
+<ContactMethods><ContactMethod sequenceNum="1" type="Phone">531-220-2712</ContactMethod>
+<ContactMethod sequenceNum="2" type="Email">JACOBSTRUCKING@YAHOO.COM</ContactMethod>
+</ContactMethods>
+</Contact>
+</Contacts>
+<Comments></Comments>
+</Address>
+<ReasonCode/><Status></Status>
+<LaneID>POMPANO BEACH,FL to SIOUX CITY</LaneID>
+<Zone/><RouteGuidePriority/><CarrierLocationOid>22586980806</CarrierLocationOid>
+<OriginService></OriginService>
+<DestinationService></DestinationService>
+<Charges><Charge sequenceNum="1" type="ITEM" itemGroupId=""><Description>Total Line Haul</Description>
+<EdiCode></EdiCode>
+<Amount>2000.00</Amount>
+<Rate>2000.00</Rate>
+<RateQualifier>FR</RateQualifier>
+<Quantity/><Weight>0.0</Weight>
+<DimWeight>0.0</DimWeight>
+<FreightClass>0.0</FreightClass>
+<FakFreightClass>0.0</FakFreightClass>
+<IsMin>false</IsMin>
+<IsMax>false</IsMax>
+<IsNontaxable>false</IsNontaxable>
+<GLCode>4100-2000</GLCode>
+</Charge>
+</Charges>
+<Comments/></PriceSheet>
+</PriceSheets>
+<Tenders><Tender user="SJENSSEN" carrierSCAC="NONE" method="email" date="01/21/2021 12:05"><TenderResponse carrierSCAC="NONE" actioncode="A" date="01/21/2021 12:05"/></Tender>
+</Tenders>
+<Activities><Activity type="Assign Customer Rate"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/21/2021 10:54</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/21/2021 10:55</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Assign Carrier Rate"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/21/2021 10:55</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/21/2021 12:04</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Enter Required Info"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/21/2021 12:04</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/21/2021 12:05</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Send Carrier Confirmation"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/21/2021 12:05</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/21/2021 12:05</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Book"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/21/2021 12:05</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/21/2021 12:05</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Dispatch"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/21/2021 12:05</PlannedDate>
+<PercentageComplete>100%</PercentageComplete>
+<CompletedDate>01/21/2021 09:05</CompletedDate>
+<StatusDetails>NAME YAIMA
+PHONE 531-220-2712
+EMAIL JACOBSTRUCKING@YAHOO.COM
+DRIVERID 
+</StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode>USA</CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Call Check"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/22/2021 12:41</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/25/2021 18:04</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Ready for Accounting"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/25/2021 18:04</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/25/2021 18:04</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Add POD"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Pending</Status>
+<AssignedTo></AssignedTo>
+<PlannedDate>01/25/2021 18:04</PlannedDate>
+<PercentageComplete></PercentageComplete>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Commission Issue"><ActivityID></ActivityID>
+<Summary>did not match a BrokerCommissionSplit entry</Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/25/2021 18:04</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+<Activity type="Carrier Invoice Added"><ActivityID></ActivityID>
+<Summary></Summary>
+<Priority></Priority>
+<Required>false</Required>
+<Status>Complete</Status>
+<AssignedTo></AssignedTo>
+<PercentageComplete></PercentageComplete>
+<CompletedDate>01/26/2021 15:47</CompletedDate>
+<StatusDetails></StatusDetails>
+<Location><Name></Name>
+<AddrLine1></AddrLine1>
+<AddrLine2></AddrLine2>
+<City></City>
+<StateProvince></StateProvince>
+<PostalCode></PostalCode>
+<CountryCode></CountryCode>
+</Location>
+<Contact><Name></Name>
+</Contact>
+<Documents></Documents>
+</Activity>
+</Activities>
+</MasterBillOfLading>
+</MercuryGate>
